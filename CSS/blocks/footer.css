@@ -1,0 +1,92 @@
+.footer__section {
+  height: 93px;
+  padding-top: 40px;
+  margin-top: auto;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.logo--footer {
+  margin-right: 130px;
+}
+
+.footer--line {
+  border-top: 1px solid rgba(255, 255, 255, .1) ;
+}
+
+.footer__col--align--right {
+  align-items: flex-end;
+}
+
+.socials {
+  margin-right: 74px;
+}
+
+.social__list {
+display: flex;
+justify-content: space-between;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__item-telegram .socials__link {
+  background: url("../../image/sprites.png") -122px -10px;
+}
+
+.socials__item-telegram .socials__link:hover {
+  background-position: -122px -66px;
+}
+
+.socials__item-vkontakte .socials__link {
+  background: url("../../image/sprites.png") -10px -122px;
+}
+
+.socials__item-vkontakte .socials__link:hover {
+  background-position: -66px -122px;
+}
+
+.socials__item-facebook .socials__link {
+  background: url("../../image/sprites.png") -10px -10px;
+}
+
+.socials__item-facebook .socials__link:hover {
+  background-position: -66px -10px;
+}
+
+.socials__item-instagram .socials__link {
+  background: url("../../image/sprites.png") -10px -66px;
+}
+
+.socials__item-instagram .socials__link:hover {
+  background-position: -66px -66px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.phones--footer .phones__text {
+  font-size: 11px;
+  color: #9A9A9A;
+  margin-left: 27px;
+}

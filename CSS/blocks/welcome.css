@@ -1,0 +1,57 @@
+.welcome {
+  display: flex;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background: url("../../image/bg.png") center bottom no-repeat;
+}
+
+.welcome__container {
+  width: 1128px;
+  height: 643px;
+  background: url("../../image/rec.png") center center no-repeat;
+  display: flex;
+  position:fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+}
+
+.central__logo {
+  margin-bottom: 38px;
+}
+
+.central--animation {
+  opacity: 0;
+  animation: animation 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(0.0001) rotate(35deg);
+  }
+  
+  40% {
+    transform: rotate(-12deg);
+  }
+
+  80% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
